@@ -1,0 +1,17 @@
+.menu{
+  width: 25%;
+  text-align: left;
+  left: -100%;
+  position: fixed;
+  transition: 0.5s;
+  height: 100vh;
+  background-color: greenyellow;
+}
+.activeMenu{
+    left: 0%;
+}
+.micon{
+  position: absolute;
+  right: 45px;
+  font-size: 25px;
+}
